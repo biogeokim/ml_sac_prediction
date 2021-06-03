@@ -1,13 +1,13 @@
 ## VERSION INFORMATION
 ## Author: Insang Song (isong@uoregon.edu)
-## Last revision: 123120
+## Last revision: 060221
 
 # to edit '~' as your working directory
 
 setwd('~')
 download.file("https://github.com/biogeokim/ml_sac_prediction/raw/main/Supporting_Information_Data_1.RData",
 			  "Supporting_Information_Data_1.RData")
-download.file("https://github.com/biogeokim/ml_sac_prediction/raw/main/Supporting_Information_Data_1.RData",
+download.file("https://github.com/biogeokim/ml_sac_prediction/raw/main/Supporting_Information_Data_2.RData",
 			  "Supporting_Information_Data_2.RData")
 
 if (!require(pacman)) { install.packages("pacman") }
